@@ -1,0 +1,79 @@
+/* Reseta alguns estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9f5e9;
+    color: #333;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Estiliza o container principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estiliza o conteúdo principal */
+.main-content {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza os títulos */
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+/* Estiliza listas */
+ul {
+    list-style-type: square;
+    margin: 10px 0;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Estiliza o rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
